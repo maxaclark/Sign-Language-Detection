@@ -7,4 +7,32 @@ This project intends to train a Convolutional Neural Network (CNN) to classify i
 
 ## Objectives  
 
+- Verify class balance and stratification across training and testing splits
+- Build and train a CNN to classify images based on the number of fingers raised in the image
+- Analyze model successes and failures in testing
+- Apply CNN to our own dataset designed to challenge the model
 
+---
+
+## Repository Structure
+
+```
+|---jpeg_images                        # Self-made dataset of images
+|      |---0                           # Sub-folders containing specified classes of images
+|      |---1
+|      |---2
+|      |---3
+|      |---4
+|      |---5
+|---README.md
+|---SignLanguageClassification.ipynb   # Final Project Jupyter Notebook
+|---test.h5                            # test dataset
+|---train.h5                           # train dataset
+```
+
+---
+
+## Methodology
+
+### Dataset
+- Sourced from Kaggle user Shivam Aggarwal [link](https://www.kaggle.com/datasets/shivamaggarwal513/dlai-hand-signs-05)
