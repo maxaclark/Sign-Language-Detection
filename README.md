@@ -1,4 +1,4 @@
-# Sign Language Detection  
+# Sign Language Classification  
 ### Max Clark, Lukas Schneider, Rowan King, Brendan McGuinness  
 
 ## Introduction  
