@@ -72,6 +72,9 @@ This project intends to train a Convolutional Neural Network (CNN) to classify i
 ### Real-World Dataset
 ![Real-World Dataset](visualizations/real_world_set.png)
 
+### Real-World Confusion Matrix
+![Real-World Confusion Matrix](visualizations/real_world_matrix.png)
+
 ---
 
 ## Training/Validation Performance Summary
@@ -90,16 +93,5 @@ This project intends to train a Convolutional Neural Network (CNN) to classify i
 | 10    | 0.9842    | 0.0449 |                     |                 |
 | 11    | 0.9863    | 0.0415 | 0.8917              | 0.2868          |
 | 12    | 1.0000    | 0.0022 |                     |                 |
-
-
-
-
-
-
-
-### Real-World Confusion Matrix
-![Real-World Confusion Matrix](visualizations/real_world_matrix.png)
-
----
 
 
