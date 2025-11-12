@@ -72,6 +72,31 @@ This project intends to train a Convolutional Neural Network (CNN) to classify i
 ### Real-World Dataset
 ![Real-World Dataset](visualizations/real_world_set.png)
 
+---
+
+## Training/Validation Performance Summary
+
+| Epoch | Accuracy  | Loss   | Validation Accuracy | Validation Loss |
+|-------|-----------|--------|---------------------|-----------------|
+| 1     | 0.1899    | 1.9373 | 0.5833              | 1.1906          |
+| 2     | 0.6208    | 0.9947 |                     |                 |
+| 3     | 0.8149    | 0.5409 | 0.8417              | 0.4253          |
+| 4     | 0.9107    | 0.2502 |                     |                 |
+| 5     | 0.9640    | 0.1399 | 0.9000              | 0.3452          |
+| 6     | 0.9713    | 0.0943 |                     |                 |
+| 7     | 0.9724    | 0.0855 | 0.8583              | 0.3069          |
+| 8     | 0.9846    | 0.0381 |                     |                 |
+| 9     | 0.9826    | 0.0441 | 0.9000              | 0.2869          |
+| 10    | 0.9842    | 0.0449 |                     |                 |
+| 11    | 0.9863    | 0.0415 | 0.8917              | 0.2868          |
+| 12    | 1.0000    | 0.0022 |                     |                 |
+
+
+
+
+
+
+
 ### Real-World Confusion Matrix
 ![Real-World Confusion Matrix](visualizations/real_world_matrix.png)
 
