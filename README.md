@@ -94,4 +94,28 @@ This project intends to train a Convolutional Neural Network (CNN) to classify i
 | 11    | 0.9863    | 0.0415 | 0.8917              | 0.2868          |
 | 12    | 1.0000    | 0.0022 |                     |                 |
 
+### Key Insights
 
+- For the first 4 epochs, the training accuracy rose rapidly, but slowed for the remaining 8 epochs
+- Validation accuracy peaked after the 4th epoch, and made no consistent improvements afterwards
+- Despite the plateau in validation accuracy, validation loss continued to decrease throughout the 12 epochs
+
+## Testing Performance Summary
+
+| Test Accuracy  | Test Loss  |
+|----------------|------------|
+| 0.9083         | 0.3267     |
+
+| Label/Prediction  | 0  | 1  | 2  | 3  | 4  | 5  |
+|-------------------|----|----|----|----|----|----|
+| 0                 | 18 | 0  | 0  | 0  | 2  | 0  |
+| 1                 | 0  | 17 | 3  | 0  | 0  | 0  |
+| 2                 | 1  | 1  | 17 | 0  | 0  | 1  |
+| 3                 | 0  | 0  | 0  | 16 | 1  | 3  |
+| 4                 | 0  | 0  | 0  | 2  | 15 | 3  |
+| 5                 | 0  | 0  | 0  | 0  | 2  | 18 |
+
+### Key Insights
+
+- Validation accuracy and loss were very close to test accuracy and loss, indicating little to no overfitting
+-  
