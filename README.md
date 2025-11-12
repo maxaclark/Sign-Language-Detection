@@ -118,4 +118,14 @@ This project intends to train a Convolutional Neural Network (CNN) to classify i
 ### Key Insights
 
 - Validation accuracy and loss were very close to test accuracy and loss, indicating little to no overfitting
--  
+- The model had a high tendency to predict `5` (25 times in total), and a low tendency to predict `1` and `3` (18 times each)
+- When presented with a true label of `4`, the model predicted `4` just 75% of the time
+- When the model gave a prediction of `0`, it was correct 94.7% of the time
+
+---
+
+## Future Improvements
+
+- Employ image smoothing, image segmentation, and edge detection to improve model performance and applicability to real-world images
+- Apply image transformations in the image data generator such as color inversion to improve effectiveness with different skin tones
+- Object detection of individual fingers to improve model robustness
